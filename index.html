@@ -1,1 +1,122 @@
-<p>here
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>资源导航</title>
+    <style>
+        /* 全局样式 */
+        
+        body {
+            font-size: 16px;
+        }
+        /* 在小于 600px 的屏幕上应用的样式 */
+        
+        @media screen and (max-width: 600px) {
+            body {
+                font-size: 14px;
+            }
+        }
+        
+        body {
+            text-align: center;
+            background-color: #f5f5f5;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            /* 设置字体 */
+        }
+        
+        h1 {
+            margin-top: 50px;
+            color: #333;
+            font-size: 40px;
+            font-weight: bold;
+            text-shadow: 2px 2px 0 #ccc;
+            /* 添加标题文字阴影效果 */
+        }
+        
+        h2 {
+            margin-top: 30px;
+            color: #666;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            /* 将副标题字母转换为大写 */
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px auto;
+            max-width: 300px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        li {
+            margin: 0 10px;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            transition: background-color 0.3s ease;
+            /* 添加鼠标悬浮时背景色渐变效果 */
+        }
+        
+        li:hover {
+            background-color: #f5f5f5;
+            /* 鼠标悬浮时改变背景色 */
+        }
+        
+        a {
+            color: #333;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            /* 添加鼠标悬浮时颜色渐变效果 */
+        }
+        
+        a:hover {
+            color: #666;
+            /* 鼠标悬浮时改变字体颜色 */
+        }
+        
+        .logo {
+            width: 300px;
+            height: 240px;
+            margin: 0px auto 60px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo">
+        <img src="images/logo.JPG" width="100%" alt="">
+    </div>
+    <!-- 这里是要在加载网页之前显示的内容 -->
+    <div id="loading">YYS</div>
+    <!-- 这里是网页的其余内容 -->
+    <header>
+        <!-- 这里是 JavaScript 文件的引用 -->
+        <script src="script.js"></script>
+
+        <h1>易用社</h1>
+
+        <h2>24小时自动发货店铺</h2>
+        <ul>
+            <li><a href="https://www.w3school.com.cn/">1</a></li>
+            <li><a href="https://www.runoob.com/">2</a></li>
+            <li><a href="https://www.runoob.com/">3</a></li>
+        </ul>
+        <h2>联系我们</h2>
+        <ul>
+            <li><a href="https://mp.weixin.qq.com/s/2MuG__ok8eRyNFulwUvYng">微信公众号</a></li>
+            <li><a href="images/vx.JPG">客服vx</a></li>
+            <li><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=8lO-ADnJ2RAOtGThyaZoB6BBxZ_84KSB&authKey=I9PzL0L2DYD1OJsebnmltQA7w8lIfRjLK%2FP8DDC185BfF%2Fpjk8tCFmq9MN7cjBXe&noverify=0&group_code=660386126">QQ福利群</a></li>
+            <li><a href="https://pd.qq.com/s/8ccn40flx">Chatgpt体验频道</a></li>
+        </ul>
+        <footer>
+            <p>&copy; 2023 YYS</p>
+        </footer>
+
+</body>
+
+</html>
